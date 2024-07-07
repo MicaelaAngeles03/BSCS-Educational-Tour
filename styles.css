@@ -1,0 +1,296 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    
+}
+
+    
+header {
+    position:absolute;
+    top: 0;  
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0.1);
+    color: white;
+    background-color: #2f2c2c;
+    width: 100%;
+    overflow: hidden;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+nav a{
+    padding: 8px;
+}
+li a{
+    color: white;
+}
+.logo, .logo:hover {
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+nav li a:hover{
+    color: rgba(124, 255, 43, 0.745);
+}
+
+header{
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+.welcome {
+    background-image: url(background.jpg); /* Replace with the actual background image */
+    background-size: cover;
+    color: blue;
+    padding: 10em 2em;
+    text-align: center;
+}
+
+.welcome h2 {
+    color: white;
+    padding: 62px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -79px;
+}
+
+.welcome p {
+    color: white;
+    padding: 62px;
+    text-align: start;
+    font-size: 25px;
+    margin-top: 55px;
+}
+.welcome p span
+{
+    color: indianred;
+    font-size: 1.3em;
+}
+
+.days {
+    background-color: white;
+    margin: 1em 0;
+    padding: 2em 0;
+    text-align: center;
+}
+
+
+
+.venue{
+    background-color: white;
+    margin: 1em 0;
+    padding: 2em 0;
+    text-align: start;
+}
+
+.venue h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.venue-item {
+        background-color: white;
+        margin: 1em auto;
+        padding: 1em;
+        max-width: 97%;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(60, 38, 38, 0.1);
+}
+
+.venue-item h3{
+    font-size: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.days {
+    display: flex;
+    justify-content: space-around;
+}
+
+.day {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 23%;
+    box-shadow: 0 2px 5px rgba(63, 62, 62, 0.1);
+}
+
+.speaker-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.speakers h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around
+}
+
+.speaker {
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    flex: 1 1 calc(25% - 2em);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.speaker img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.PAGASA, .FAA, .Vessel, .QBO, .IoT, .LRTA, .Labs, .Hytec{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 73px;
+    margin-top: 22px;
+}
+
+
+
+.pic{
+    height: 31rem;
+    width: 750px;
+    margin: 20px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.pic1{
+    background-image: url(./pictures/PAGASA1.jpg);
+}
+.pic2{
+    background-image: url(./pictures/PAGASA2.png);
+}
+
+.pic3{
+    background-image: url(./pictures/FAA1.jpg);
+}
+.pic4{
+    background-image: url(./pictures/FAA2.jpg);
+}
+
+.pic5{
+    background-image: url(./pictures/Vessel1.png);
+}
+.pic6{
+    background-image: url(./pictures/Vessel2.jpg);
+}
+
+.pic7{
+    background-image: url(./pictures/QBO1.jpg);
+}
+.pic8{
+    background-image: url(./pictures/QBO2.png);
+}
+
+.pic9{
+    background-image: url(./pictures/IoT1.jpg);
+}
+.pic10{
+    background-image: url(./pictures/IoT2.jpg);
+}
+
+.pic11{
+    background-image: url(./pictures/LRTA1.jpg);
+}
+.pic12{
+    background-image: url(./pictures/LRTA2.jpg);
+}
+
+.pic13{
+    background-image: url(./pictures/98Lab1.jpg);
+}
+.pic14{
+    background-image: url(./pictures/98Lab2.png);
+}
+
+.pic15{
+    background-image: url(./pictures/hytec1.jpg);
+}
+.pic16{
+    background-image: url(./pictures/hytec2.jpg);
+}
+
+.pic16{
+    background-image: url(./pictures/hytec3.jpg);
+}
+
+.about{
+    background: rgb(102, 102, 102);
+    text-align: center;
+    font-size: 23px;
+    padding: 50px;
+}
+.about h2{
+    background: rgb(102, 102, 102);
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+    margin-top: -83px;
+    color: white;
+}
+
+.about p{
+    background: rgb(102, 102, 102);
+    text-align: center;
+    font-size: 23px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+footer{
+    background-color:rgba(124, 255, 43, 0.745);
+    text-align: center;
+    height: 50px;
+    align-content: center;
+    font-size:25px;
+    padding: 40px;
+}
